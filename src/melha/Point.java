@@ -14,17 +14,17 @@ public class Point {
     private int y;
 
     public Point(int x, int y) {
-        System.out.println("inside args constructor.");
+        //System.out.println("inside args constructor.");
         this.x = x;
         this.y = y;
     }
 
     public Point(){
-        System.out.println("inside no args constructor.");
+        //System.out.println("inside no args constructor.");
     }
 
     public int getX() {
-        System.out.println("Inside setter X.");
+        //System.out.println("Inside setter X.");
         return x;
     }
 

@@ -21,6 +21,10 @@ public class Main {
         Point point = applicationContext.getBean("point",Point.class);
 
         System.out.println(point.getY());
+
+        HelloWorld hw = applicationContext.getBean("helloWorld", HelloWorld.class);
+
+        hw.getMessage();
         
     }
 }
